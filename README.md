@@ -1,1 +1,1 @@
-# pelantikanTIK
+# pelantihanTIK
