@@ -1,8 +1,8 @@
-// 1. Pilih tombol berdasarkan ID-nya
+// 1. Memilih tombol berdasarkan ID-nya ('klikButton')
 const klik = document.getElementById('klikButton');
 
-// 2. Tambahkan 'event listener' untuk aksi 'click'
+// 2. Menambahkan 'event listener' untuk mendeteksi aksi klik dari pengguna
 klik.addEventListener('click', function() {
-    // 3. Jalankan kode ini ketika tombol di-klik
+    // 3. Menampilkan jendela pop-up (alert) ketika tombol diklik
     alert('Halo! Terima kasih sudah berkunjung!');
 });
