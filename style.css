@@ -1,24 +1,23 @@
+/* Pengaturan tampilan dasar halaman */
 body {
-    background-color: #FFFFE0; /* Warna kuning cerah */
-    font-family: Times New Roman, serif; /* Jenis huruf yang bersih dan mudah dibaca */
+    background-color: #FFFFE0; /* Warna latar belakang kuning cerah */
+    font-family: "Times New Roman", serif; /* Jenis huruf */
     color: #191970; /* Warna teks utama (Biru Gelap) */
 }
 
+/* Kotak kartu profil (pengaturan digabung menjadi satu agar rapi) */
 .kartu-profil {
     width: 300px;
     margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
     padding: 20px;
     background-color: white;
-    border-radius: 15px; /* Membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+    border-radius: 15px; /* Membuat sudut kotak menjadi melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan lembut */
+    text-align: center; /* Menengahkan seluruh teks dan elemen di dalam kartu */
 }
 
-
+/* Pengaturan khusus untuk gambar di dalam kartu profil */
 .kartu-profil img {
     width: 150px;
-    border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
-}
-.kartu-profil {
-    /* ... (kode dari slide sebelumnya) ... */
-    text-align: center; /* Menengahkan semua teks di dalam kartu */
+    border-radius: 50%; /* Membuat gambar persegi menjadi berbentuk lingkaran sempurna */
 }
